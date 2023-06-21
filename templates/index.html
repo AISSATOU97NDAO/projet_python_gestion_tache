@@ -10,12 +10,11 @@
 {% block body %}
 
 <div class="container">
-    Bonjour {{ user.name }} voici la liste de vos taches
     <div class="row">
         <div class="col md-12">
             <div class="jumbotron p-3">
                 <a href="{{ url_for('user.logout') }}" type="button"  class="btn btn-danger navbar-item">
-                Logout
+                Se deconnecter
                 </a>
                 <h2>Gestion de vos <b>Taches</b>  <button type="button"  class="btn btn-success float-right"
                 data-toggle="modal" data-target="#mymodal">Ajouter une nouvelle tache</button> </h2>
