@@ -4,7 +4,7 @@ from models import db, User
 from routes import *                  # c'est pour definir les routes de notre page
 
 app = Flask(__name__)
-app.secret_key = "Secret Key"          # c'est pour securiser les sessions utilisations et les cookies
+app.secret_key = "3d6f45a5fc12445dbac2f59c3b6c7cb1"          # c'est pour securiser les sessions utilisations et les cookies
  #Configuration de la base de données SqlAlchemy avec Postgres
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://flask:flask@localhost/crud'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
